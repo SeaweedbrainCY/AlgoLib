@@ -6,4 +6,4 @@
   - Dijkstra
   - Floyd Warshall
 - Sort
-  -Usual sort
+  - Usual sort
