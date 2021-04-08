@@ -1,5 +1,5 @@
 //
-//  Dictionnary.swift
+//  Dictionary.swift
 //
 //  Created by Stchepinsky Nathan on 17/02/2020.
 //  Copyright © 2020 Nathan. All rights reserved.
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class DictionnaryExtension {
+class DictionaryExtension {
     /// Return the first key correponding to the element given in argument
     /// - Parameters:
     ///   - of: Element corresponding to the key researched
@@ -44,7 +44,7 @@ class DictionnaryExtension {
         return list
     }
     
-    /// Convert a dictionnary [*String*:*String*] to a  json string
+    /// Convert a Dictionary [*String*:*String*] to a  json string
     /// - Parameter dict: [*String*:*String*]
     func dictionaryToJson(dict: [String: String]) -> String? {
         if let theJSONData = try? JSONSerialization.data(
